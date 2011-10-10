@@ -1,0 +1,11 @@
+# Device	Mountpoint				FStype		Options	Dump	Pass#
+/dev/ad4s1b	none					swap		sw		0		0
+/dev/ad4s1a	/						ufs			rw		1		1
+/dev/ad4s1e	/tmp					ufs			rw		2		2
+/dev/ad4s1f	/usr					ufs			rw		2		2
+/dev/ad4s1h	/usr/home				ufs			rw		2		2
+/dev/ad4s1g	/usr/local				ufs			rw		2		2
+/dev/ad4s1d	/var					ufs			rw		2		2
+proc		/proc					procfs		rw		0		0
+linproc 	/usr/compat/linux/proc  linprocfs  	rw 		0 		0
+#fdesc		/dev/fd					fdescf		rw		0		0
